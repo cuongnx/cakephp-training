@@ -54,9 +54,9 @@ class DATABASE_CONFIG {
 		'datasource' => 'Database/Mysql',
 		'persistent' => false,
 		'host' => 'localhost',
-		'login' => 'user',
-		'password' => 'password',
-		'database' => 'database_name',
+		'login' => 'cuongnx',
+		'password' => 'admin',
+		'database' => 'cakephp_training',
 		'prefix' => '',
 		//'encoding' => 'utf8',
 	);

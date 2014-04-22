@@ -1,0 +1,13 @@
+CREATE TABLE posts (
+  id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+  owner_id INT UNSIGNED,
+  thread_id INT UNSIGNED,
+  body TEXT,
+  created DATETIME DEFAULT NULL,
+  modified DATETIME DEFAULT NULL,
+  FOREIGN KEY (owner_id)
+    REFERENCES users(id),
+  FOREIGN KEY (thread_id)
+    REFERENCES threads(id)
+    ON DELETE CASCADE
+);

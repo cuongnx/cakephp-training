@@ -1,0 +1,8 @@
+CREATE TABLE threads (
+  id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+  owner_id INT UNSIGNED,
+  created DATETIME DEFAULT NULL,
+  modified DATETIME DEFAULT NULL,
+  FOREIGN KEY (owner_id)
+    REFERENCES users(id)
+)
