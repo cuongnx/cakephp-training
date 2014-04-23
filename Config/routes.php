@@ -11,11 +11,11 @@
  * @since         CakePHP(tm) v 0.2.9
  */
 
-Router::connect('/', array('controller' => 'pages', 'action' => 'home'));
-Router::connect('/signin', array('controller' => 'pages', 'action' => 'signin'));
-Router::connect('/signup', array('controller' => 'pages', 'action' => 'signup'));
+Router::connect('/', array('controller' => 'pages', 'action' => 'index'));
+Router::connect('/signin', array('controller' => 'users', 'action' => 'signin'));
+Router::connect('/signup', array('controller' => 'users', 'action' => 'signup'));
+Router::connect('/signout', array('controller' => 'users', 'action' => 'logout'));
 Router::connect('/posts/*', array('controller' => 'posts', 'action' => 'view'));
-Router::connect('/users/signup', array('controller' => 'users', 'action' => 'signup'));
 
 /**
  * Load all plugin routes. See the CakePlugin documentation on

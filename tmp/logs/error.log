@@ -212,3 +212,1246 @@ Stack Trace:
 #3 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
 #4 /var/www/html/example-app/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #5 {main}
+2014-04-23 01:12:44 Error: [MissingActionException] Action UsersController::users() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'users',
+)
+Request URL: /users/users/login
+Stack Trace:
+#0 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/html/example-app/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-04-23 01:22:36 Error: [MissingViewException] View file "/var/www/html/example-app/View/Users/login.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/html/example-app/View/Users/login.ctp',
+)
+Request URL: /users/login
+Stack Trace:
+#0 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/html/example-app/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-04-23 01:22:42 Error: [MissingViewException] View file "/var/www/html/example-app/View/Users/login.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/html/example-app/View/Users/login.ctp',
+)
+Request URL: /users/login
+Stack Trace:
+#0 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/html/example-app/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-04-23 01:22:47 Error: [MissingViewException] View file "/var/www/html/example-app/View/Users/login.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/html/example-app/View/Users/login.ctp',
+)
+Request URL: /users/login
+Stack Trace:
+#0 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/html/example-app/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-04-23 01:22:48 Error: [MissingViewException] View file "/var/www/html/example-app/View/Users/login.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/html/example-app/View/Users/login.ctp',
+)
+Request URL: /users/login
+Stack Trace:
+#0 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/html/example-app/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-04-23 01:22:49 Error: [MissingViewException] View file "/var/www/html/example-app/View/Users/login.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/html/example-app/View/Users/login.ctp',
+)
+Request URL: /users/login
+Stack Trace:
+#0 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/html/example-app/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-04-23 01:23:39 Error: [MissingViewException] View file "/var/www/html/example-app/View/Users/login.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/html/example-app/View/Users/login.ctp',
+)
+Request URL: /users/login
+Stack Trace:
+#0 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/html/example-app/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-04-23 01:23:40 Error: [MissingViewException] View file "/var/www/html/example-app/View/Users/login.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/html/example-app/View/Users/login.ctp',
+)
+Request URL: /users/login
+Stack Trace:
+#0 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/html/example-app/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-04-23 01:23:41 Error: [MissingViewException] View file "/var/www/html/example-app/View/Users/login.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/html/example-app/View/Users/login.ctp',
+)
+Request URL: /users/login
+Stack Trace:
+#0 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/html/example-app/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-04-23 01:24:43 Error: [MissingViewException] View file "/var/www/html/example-app/View/Users/login.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/html/example-app/View/Users/login.ctp',
+)
+Request URL: /users/login
+Stack Trace:
+#0 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/html/example-app/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-04-23 01:29:39 Error: [MissingControllerException] Controller class IndexxController could not be found.
+Exception Attributes: array (
+  'class' => 'IndexxController',
+  'plugin' => NULL,
+)
+Request URL: /indexx
+Stack Trace:
+#0 /var/www/html/example-app/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-04-23 01:29:44 Error: [MissingControllerException] Controller class IndexController could not be found.
+Exception Attributes: array (
+  'class' => 'IndexController',
+  'plugin' => NULL,
+)
+Request URL: /index
+Stack Trace:
+#0 /var/www/html/example-app/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-04-23 01:49:19 Error: [MissingActionException] Action UsersController::users() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'users',
+)
+Request URL: /users/users/login
+Stack Trace:
+#0 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/html/example-app/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-04-23 02:01:42 Error: Fatal Error (4): syntax error, unexpected '{' in [/var/www/html/example-app/Controller/PagesController.php, line 13]
+2014-04-23 02:01:42 Error: [FatalErrorException] syntax error, unexpected '{'
+Request URL: /
+Stack Trace:
+#0 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/e...', 13)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/e...', 13, Array)
+#2 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/e...', 13, Array)
+#3 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-23 02:02:42 Error: Fatal Error (4): syntax error, unexpected '{' in [/var/www/html/example-app/Controller/PagesController.php, line 13]
+2014-04-23 02:02:42 Error: [FatalErrorException] syntax error, unexpected '{'
+Request URL: /
+Stack Trace:
+#0 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/e...', 13)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/e...', 13, Array)
+#2 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/e...', 13, Array)
+#3 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-23 02:03:25 Error: Fatal Error (4): syntax error, unexpected '{' in [/var/www/html/example-app/Controller/PagesController.php, line 13]
+2014-04-23 02:03:25 Error: [FatalErrorException] syntax error, unexpected '{'
+Request URL: /
+Stack Trace:
+#0 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/e...', 13)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/e...', 13, Array)
+#2 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/e...', 13, Array)
+#3 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-23 02:04:10 Error: Fatal Error (4): syntax error, unexpected '{' in [/var/www/html/example-app/Controller/PagesController.php, line 13]
+2014-04-23 02:04:10 Error: [FatalErrorException] syntax error, unexpected '{'
+Request URL: /
+Stack Trace:
+#0 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/e...', 13)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/e...', 13, Array)
+#2 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/e...', 13, Array)
+#3 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-23 02:05:08 Error: Fatal Error (4): syntax error, unexpected '{' in [/var/www/html/example-app/Controller/PagesController.php, line 13]
+2014-04-23 02:05:08 Error: [FatalErrorException] syntax error, unexpected '{'
+Request URL: /
+Stack Trace:
+#0 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/e...', 13)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/e...', 13, Array)
+#2 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/e...', 13, Array)
+#3 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-23 02:06:30 Error: [MissingHelperException] Helper class AuthHelper could not be found.
+Exception Attributes: array (
+  'class' => 'AuthHelper',
+  'plugin' => false,
+)
+Request URL: /signin
+Stack Trace:
+#0 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/HelperCollection.php(63): HelperCollection->load('Auth')
+#1 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/View.php(824): HelperCollection->__isset('Auth')
+#2 /var/www/html/example-app/View/Elements/header.ctp(6): View->__get('Auth')
+#3 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/View.php(935): include('/var/www/html/e...')
+#4 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/View.php(897): View->_evaluate('/var/www/html/e...', Array)
+#5 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/View.php(1195): View->_render('/var/www/html/e...', Array)
+#6 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/View.php(412): View->_renderElement('/var/www/html/e...', Array, Array)
+#7 /var/www/html/example-app/View/Layouts/default.ctp(13): View->element('header')
+#8 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/View.php(935): include('/var/www/html/e...')
+#9 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/View.php(897): View->_evaluate('/var/www/html/e...', Array)
+#10 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/View.php(529): View->_render('/var/www/html/e...')
+#11 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/View.php(474): View->renderLayout('', 'default')
+#12 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#13 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(192): Controller->render()
+#14 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#15 /var/www/html/example-app/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2014-04-23 02:06:50 Error: Fatal Error (4): syntax error, unexpected '{' in [/var/www/html/example-app/Controller/PagesController.php, line 13]
+2014-04-23 02:06:50 Error: [FatalErrorException] syntax error, unexpected '{'
+Request URL: /
+Stack Trace:
+#0 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/e...', 13)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/e...', 13, Array)
+#2 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/e...', 13, Array)
+#3 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-23 02:11:30 Error: Fatal Error (4): syntax error, unexpected '{' in [/var/www/html/example-app/Controller/PagesController.php, line 13]
+2014-04-23 02:11:30 Error: [FatalErrorException] syntax error, unexpected '{'
+Request URL: /
+Stack Trace:
+#0 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/e...', 13)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/e...', 13, Array)
+#2 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/e...', 13, Array)
+#3 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-23 02:18:13 Error: Fatal Error (4): syntax error, unexpected '{' in [/var/www/html/example-app/Controller/PagesController.php, line 13]
+2014-04-23 02:18:13 Error: [FatalErrorException] syntax error, unexpected '{'
+Request URL: /
+Stack Trace:
+#0 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/e...', 13)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/e...', 13, Array)
+#2 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/e...', 13, Array)
+#3 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-23 02:18:17 Error: Fatal Error (4): syntax error, unexpected '{' in [/var/www/html/example-app/Controller/PagesController.php, line 13]
+2014-04-23 02:18:17 Error: [FatalErrorException] syntax error, unexpected '{'
+Request URL: /
+Stack Trace:
+#0 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/e...', 13)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/e...', 13, Array)
+#2 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/e...', 13, Array)
+#3 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-23 02:18:59 Error: Fatal Error (4): syntax error, unexpected '{' in [/var/www/html/example-app/Controller/PagesController.php, line 13]
+2014-04-23 02:18:59 Error: [FatalErrorException] syntax error, unexpected '{'
+Request URL: /
+Stack Trace:
+#0 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/e...', 13)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/e...', 13, Array)
+#2 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/e...', 13, Array)
+#3 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-23 02:19:00 Error: Fatal Error (4): syntax error, unexpected '{' in [/var/www/html/example-app/Controller/PagesController.php, line 13]
+2014-04-23 02:19:00 Error: [FatalErrorException] syntax error, unexpected '{'
+Request URL: /
+Stack Trace:
+#0 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/e...', 13)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/e...', 13, Array)
+#2 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/e...', 13, Array)
+#3 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-23 02:19:01 Error: [MissingControllerException] Controller class SignoutController could not be found.
+Exception Attributes: array (
+  'class' => 'SignoutController',
+  'plugin' => NULL,
+)
+Request URL: /signout
+Stack Trace:
+#0 /var/www/html/example-app/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-04-23 02:19:04 Error: Fatal Error (4): syntax error, unexpected '{' in [/var/www/html/example-app/Controller/PagesController.php, line 13]
+2014-04-23 02:19:04 Error: [FatalErrorException] syntax error, unexpected '{'
+Request URL: /
+Stack Trace:
+#0 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/e...', 13)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/e...', 13, Array)
+#2 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/e...', 13, Array)
+#3 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-23 02:19:05 Error: [MissingControllerException] Controller class SignoutController could not be found.
+Exception Attributes: array (
+  'class' => 'SignoutController',
+  'plugin' => NULL,
+)
+Request URL: /signout
+Stack Trace:
+#0 /var/www/html/example-app/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-04-23 02:19:10 Error: Fatal Error (4): syntax error, unexpected '{' in [/var/www/html/example-app/Controller/PagesController.php, line 13]
+2014-04-23 02:19:10 Error: [FatalErrorException] syntax error, unexpected '{'
+Request URL: /
+Stack Trace:
+#0 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/e...', 13)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/e...', 13, Array)
+#2 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/e...', 13, Array)
+#3 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-23 02:22:30 Error: Fatal Error (4): syntax error, unexpected '{' in [/var/www/html/example-app/Controller/PagesController.php, line 13]
+2014-04-23 02:22:30 Error: [FatalErrorException] syntax error, unexpected '{'
+Request URL: /
+Stack Trace:
+#0 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/e...', 13)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/e...', 13, Array)
+#2 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/e...', 13, Array)
+#3 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-23 02:22:32 Error: Fatal Error (4): syntax error, unexpected '{' in [/var/www/html/example-app/Controller/PagesController.php, line 13]
+2014-04-23 02:22:32 Error: [FatalErrorException] syntax error, unexpected '{'
+Request URL: /
+Stack Trace:
+#0 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/e...', 13)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/e...', 13, Array)
+#2 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/e...', 13, Array)
+#3 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-23 02:22:33 Error: [MissingActionException] Action UsersController::signout() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'signout',
+)
+Request URL: /signout
+Stack Trace:
+#0 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/html/example-app/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-04-23 02:23:18 Error: Fatal Error (4): syntax error, unexpected '{' in [/var/www/html/example-app/Controller/PagesController.php, line 13]
+2014-04-23 02:23:18 Error: [FatalErrorException] syntax error, unexpected '{'
+Request URL: /
+Stack Trace:
+#0 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/e...', 13)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/e...', 13, Array)
+#2 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/e...', 13, Array)
+#3 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-23 02:23:19 Error: [MissingViewException] View file "/var/www/html/example-app/View/Users/login.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/html/example-app/View/Users/login.ctp',
+)
+Request URL: /users/login
+Stack Trace:
+#0 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/html/example-app/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-04-23 02:23:28 Error: Fatal Error (4): syntax error, unexpected '{' in [/var/www/html/example-app/Controller/PagesController.php, line 13]
+2014-04-23 02:23:28 Error: [FatalErrorException] syntax error, unexpected '{'
+Request URL: /
+Stack Trace:
+#0 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/e...', 13)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/e...', 13, Array)
+#2 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/e...', 13, Array)
+#3 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-23 02:24:21 Error: Fatal Error (4): syntax error, unexpected '{' in [/var/www/html/example-app/Controller/PagesController.php, line 13]
+2014-04-23 02:24:21 Error: [FatalErrorException] syntax error, unexpected '{'
+Request URL: /
+Stack Trace:
+#0 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/e...', 13)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/e...', 13, Array)
+#2 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/e...', 13, Array)
+#3 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-23 02:24:22 Error: [MissingViewException] View file "/var/www/html/example-app/View/Users/login.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/html/example-app/View/Users/login.ctp',
+)
+Request URL: /users/login
+Stack Trace:
+#0 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/html/example-app/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-04-23 02:24:49 Error: Fatal Error (4): syntax error, unexpected '{' in [/var/www/html/example-app/Controller/PagesController.php, line 13]
+2014-04-23 02:24:49 Error: [FatalErrorException] syntax error, unexpected '{'
+Request URL: /
+Stack Trace:
+#0 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/e...', 13)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/e...', 13, Array)
+#2 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/e...', 13, Array)
+#3 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-23 02:24:51 Error: [MissingViewException] View file "/var/www/html/example-app/View/Users/logout.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/html/example-app/View/Users/logout.ctp',
+)
+Request URL: /signout
+Stack Trace:
+#0 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/html/example-app/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-04-23 02:25:04 Error: Fatal Error (4): syntax error, unexpected '{' in [/var/www/html/example-app/Controller/PagesController.php, line 13]
+2014-04-23 02:25:04 Error: [FatalErrorException] syntax error, unexpected '{'
+Request URL: /
+Stack Trace:
+#0 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/e...', 13)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/e...', 13, Array)
+#2 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/e...', 13, Array)
+#3 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-23 02:25:05 Error: [MissingViewException] View file "/var/www/html/example-app/View/Users/logout.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/html/example-app/View/Users/logout.ctp',
+)
+Request URL: /signout
+Stack Trace:
+#0 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/html/example-app/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-04-23 02:25:43 Error: Fatal Error (4): syntax error, unexpected '{' in [/var/www/html/example-app/Controller/PagesController.php, line 13]
+2014-04-23 02:25:43 Error: [FatalErrorException] syntax error, unexpected '{'
+Request URL: /
+Stack Trace:
+#0 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/e...', 13)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/e...', 13, Array)
+#2 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/e...', 13, Array)
+#3 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-23 02:27:47 Error: Fatal Error (4): syntax error, unexpected '{' in [/var/www/html/example-app/Controller/PagesController.php, line 13]
+2014-04-23 02:27:47 Error: [FatalErrorException] syntax error, unexpected '{'
+Request URL: /
+Stack Trace:
+#0 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/e...', 13)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/e...', 13, Array)
+#2 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/e...', 13, Array)
+#3 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-23 02:27:49 Error: Fatal Error (4): syntax error, unexpected '{' in [/var/www/html/example-app/Controller/PagesController.php, line 13]
+2014-04-23 02:27:49 Error: [FatalErrorException] syntax error, unexpected '{'
+Request URL: /
+Stack Trace:
+#0 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/e...', 13)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/e...', 13, Array)
+#2 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/e...', 13, Array)
+#3 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-23 02:28:08 Error: [MissingActionException] Action PagesController::signin() could not be found.
+Exception Attributes: array (
+  'controller' => 'PagesController',
+  'action' => 'signin',
+)
+Request URL: /pages/signin
+Stack Trace:
+#0 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/html/example-app/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-04-23 02:28:43 Error: [MissingViewException] View file "/var/www/html/example-app/View/Users/login.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/html/example-app/View/Users/login.ctp',
+)
+Request URL: /users/login
+Stack Trace:
+#0 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/html/example-app/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-04-23 02:29:27 Error: [MissingViewException] View file "/var/www/html/example-app/View/Users/logout.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/html/example-app/View/Users/logout.ctp',
+)
+Request URL: /signout
+Stack Trace:
+#0 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/html/example-app/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-04-23 02:31:14 Error: [MissingViewException] View file "/var/www/html/example-app/View/Users/logout.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/html/example-app/View/Users/logout.ctp',
+)
+Request URL: /signout
+Stack Trace:
+#0 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/html/example-app/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-04-23 02:32:24 Error: [MissingViewException] View file "/var/www/html/example-app/View/Users/logout.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/html/example-app/View/Users/logout.ctp',
+)
+Request URL: /signout
+Stack Trace:
+#0 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/html/example-app/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-04-23 02:32:34 Error: [MissingViewException] View file "/var/www/html/example-app/View/Users/logout.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/html/example-app/View/Users/logout.ctp',
+)
+Request URL: /signout
+Stack Trace:
+#0 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/html/example-app/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-04-23 02:38:56 Error: Fatal Error (4): syntax error, unexpected T_OBJECT_OPERATOR in [/var/www/html/example-app/View/Elements/header.ctp, line 1]
+2014-04-23 02:38:56 Error: [FatalErrorException] syntax error, unexpected T_OBJECT_OPERATOR
+Request URL: /signin
+Stack Trace:
+#0 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/e...', 1)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/e...', 1, Array)
+#2 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/e...', 1, Array)
+#3 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-23 02:42:22 Error: Fatal Error (1): Allowed memory size of 134217728 bytes exhausted (tried to allocate 31457280 bytes) in [/var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Utility/Debugger.php, line 604]
+2014-04-23 02:42:22 Error: [FatalErrorException] Allowed memory size of 134217728 bytes exhausted (tried to allocate 31457280 bytes)
+Request URL: /signin
+Stack Trace:
+#0 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Allowed memory ...', '/var/www/html/e...', 604)
+#1 [internal function]: ErrorHandler::handleError(1, 'Allowed memory ...', '/var/www/html/e...', 604, Array)
+#2 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Allowed memory ...', '/var/www/html/e...', 604, Array)
+#3 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-23 02:42:37 Error: Fatal Error (1): Allowed memory size of 134217728 bytes exhausted (tried to allocate 31457280 bytes) in [/var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Utility/Debugger.php, line 604]
+2014-04-23 02:42:37 Error: [FatalErrorException] Allowed memory size of 134217728 bytes exhausted (tried to allocate 31457280 bytes)
+Request URL: /signin
+Stack Trace:
+#0 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Allowed memory ...', '/var/www/html/e...', 604)
+#1 [internal function]: ErrorHandler::handleError(1, 'Allowed memory ...', '/var/www/html/e...', 604, Array)
+#2 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Allowed memory ...', '/var/www/html/e...', 604, Array)
+#3 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-23 02:42:49 Error: Fatal Error (1): Allowed memory size of 134217728 bytes exhausted (tried to allocate 31457280 bytes) in [/var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Utility/Debugger.php, line 604]
+2014-04-23 02:42:49 Error: [FatalErrorException] Allowed memory size of 134217728 bytes exhausted (tried to allocate 31457280 bytes)
+Request URL: /signin
+Stack Trace:
+#0 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Allowed memory ...', '/var/www/html/e...', 604)
+#1 [internal function]: ErrorHandler::handleError(1, 'Allowed memory ...', '/var/www/html/e...', 604, Array)
+#2 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Allowed memory ...', '/var/www/html/e...', 604, Array)
+#3 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-23 02:43:01 Error: Fatal Error (1): Allowed memory size of 134217728 bytes exhausted (tried to allocate 31457280 bytes) in [/var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Utility/Debugger.php, line 604]
+2014-04-23 02:43:01 Error: [FatalErrorException] Allowed memory size of 134217728 bytes exhausted (tried to allocate 31457280 bytes)
+Request URL: /signin
+Stack Trace:
+#0 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Allowed memory ...', '/var/www/html/e...', 604)
+#1 [internal function]: ErrorHandler::handleError(1, 'Allowed memory ...', '/var/www/html/e...', 604, Array)
+#2 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Allowed memory ...', '/var/www/html/e...', 604, Array)
+#3 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-23 02:43:14 Error: Fatal Error (1): Allowed memory size of 134217728 bytes exhausted (tried to allocate 31457280 bytes) in [/var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Utility/Debugger.php, line 604]
+2014-04-23 02:43:14 Error: [FatalErrorException] Allowed memory size of 134217728 bytes exhausted (tried to allocate 31457280 bytes)
+Request URL: /signin
+Stack Trace:
+#0 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Allowed memory ...', '/var/www/html/e...', 604)
+#1 [internal function]: ErrorHandler::handleError(1, 'Allowed memory ...', '/var/www/html/e...', 604, Array)
+#2 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Allowed memory ...', '/var/www/html/e...', 604, Array)
+#3 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-23 02:43:26 Error: Fatal Error (1): Allowed memory size of 134217728 bytes exhausted (tried to allocate 31457280 bytes) in [/var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Utility/Debugger.php, line 604]
+2014-04-23 02:43:26 Error: [FatalErrorException] Allowed memory size of 134217728 bytes exhausted (tried to allocate 31457280 bytes)
+Request URL: /signin
+Stack Trace:
+#0 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Allowed memory ...', '/var/www/html/e...', 604)
+#1 [internal function]: ErrorHandler::handleError(1, 'Allowed memory ...', '/var/www/html/e...', 604, Array)
+#2 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Allowed memory ...', '/var/www/html/e...', 604, Array)
+#3 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-23 02:43:38 Error: Fatal Error (1): Allowed memory size of 134217728 bytes exhausted (tried to allocate 31457280 bytes) in [/var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Utility/Debugger.php, line 604]
+2014-04-23 02:43:38 Error: [FatalErrorException] Allowed memory size of 134217728 bytes exhausted (tried to allocate 31457280 bytes)
+Request URL: /signup
+Stack Trace:
+#0 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Allowed memory ...', '/var/www/html/e...', 604)
+#1 [internal function]: ErrorHandler::handleError(1, 'Allowed memory ...', '/var/www/html/e...', 604, Array)
+#2 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Allowed memory ...', '/var/www/html/e...', 604, Array)
+#3 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-23 02:43:50 Error: Fatal Error (1): Allowed memory size of 134217728 bytes exhausted (tried to allocate 31457280 bytes) in [/var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Utility/Debugger.php, line 604]
+2014-04-23 02:43:50 Error: [FatalErrorException] Allowed memory size of 134217728 bytes exhausted (tried to allocate 31457280 bytes)
+Request URL: /signup
+Stack Trace:
+#0 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Allowed memory ...', '/var/www/html/e...', 604)
+#1 [internal function]: ErrorHandler::handleError(1, 'Allowed memory ...', '/var/www/html/e...', 604, Array)
+#2 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Allowed memory ...', '/var/www/html/e...', 604, Array)
+#3 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-23 02:45:15 Error: Fatal Error (1): Allowed memory size of 134217728 bytes exhausted (tried to allocate 31457280 bytes) in [/var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Utility/Debugger.php, line 604]
+2014-04-23 02:45:15 Error: [FatalErrorException] Allowed memory size of 134217728 bytes exhausted (tried to allocate 31457280 bytes)
+Request URL: /signin
+Stack Trace:
+#0 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Allowed memory ...', '/var/www/html/e...', 604)
+#1 [internal function]: ErrorHandler::handleError(1, 'Allowed memory ...', '/var/www/html/e...', 604, Array)
+#2 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Allowed memory ...', '/var/www/html/e...', 604, Array)
+#3 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-23 02:45:28 Error: Fatal Error (1): Allowed memory size of 134217728 bytes exhausted (tried to allocate 31457280 bytes) in [/var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Utility/Debugger.php, line 604]
+2014-04-23 02:45:28 Error: [FatalErrorException] Allowed memory size of 134217728 bytes exhausted (tried to allocate 31457280 bytes)
+Request URL: /signin
+Stack Trace:
+#0 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Allowed memory ...', '/var/www/html/e...', 604)
+#1 [internal function]: ErrorHandler::handleError(1, 'Allowed memory ...', '/var/www/html/e...', 604, Array)
+#2 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Allowed memory ...', '/var/www/html/e...', 604, Array)
+#3 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-23 03:04:23 Error: [MissingViewException] View file "/var/www/html/example-app/View/Users/login.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/html/example-app/View/Users/login.ctp',
+)
+Request URL: /users/login
+Stack Trace:
+#0 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/html/example-app/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-04-23 03:12:40 Error: [MissingViewException] View file "/var/www/html/example-app/View/Users/login.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/html/example-app/View/Users/login.ctp',
+)
+Request URL: /users/login
+Stack Trace:
+#0 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/html/example-app/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-04-23 03:18:49 Error: [MissingViewException] View file "/var/www/html/example-app/View/Users/login.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/html/example-app/View/Users/login.ctp',
+)
+Request URL: /users/login
+Stack Trace:
+#0 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/html/example-app/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-04-23 03:22:19 Error: [MissingViewException] View file "/var/www/html/example-app/View/Users/login.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/html/example-app/View/Users/login.ctp',
+)
+Request URL: /users/login
+Stack Trace:
+#0 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/html/example-app/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-04-23 03:31:19 Error: [MissingViewException] View file "/var/www/html/example-app/View/Users/login.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/html/example-app/View/Users/login.ctp',
+)
+Request URL: /users/login
+Stack Trace:
+#0 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/html/example-app/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-04-23 03:33:14 Error: [MissingViewException] View file "/var/www/html/example-app/View/Users/login.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/html/example-app/View/Users/login.ctp',
+)
+Request URL: /users/login
+Stack Trace:
+#0 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/html/example-app/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-04-23 03:33:27 Error: [MissingViewException] View file "/var/www/html/example-app/View/Users/login.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/html/example-app/View/Users/login.ctp',
+)
+Request URL: /users/login
+Stack Trace:
+#0 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/html/example-app/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-04-23 03:37:46 Error: Fatal Error (4): syntax error, unexpected '}', expecting ',' or ';' in [/var/www/html/example-app/Model/Post.php, line 12]
+2014-04-23 03:37:46 Error: [FatalErrorException] syntax error, unexpected '}', expecting ',' or ';'
+Request URL: /threads
+Stack Trace:
+#0 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/e...', 12)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/e...', 12, Array)
+#2 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/e...', 12, Array)
+#3 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-23 03:40:26 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Thread.user_id' in 'on clause'
+Request URL: /threads
+Stack Trace:
+#0 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Thread`...', Array)
+#2 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Model/Datasource/DboSource.php(665): DboSource->execute('SELECT `Thread`...', Array, Array)
+#3 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Model/Datasource/DboSource.php(1077): DboSource->fetchAll('SELECT `Thread`...', false)
+#4 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Model/Model.php(2903): DboSource->read(Object(Thread), Array)
+#5 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Model/Model.php(2875): Model->_readDataSource('all', Array)
+#6 /var/www/html/example-app/Controller/ThreadsController.php(7): Model->find('all')
+#7 [internal function]: ThreadsController->index()
+#8 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(ThreadsController), Array)
+#9 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#10 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(ThreadsController), Object(CakeRequest), Object(CakeResponse))
+#11 /var/www/html/example-app/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-04-23 03:44:16 Error: [MissingTableException] Table us for model className was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'us',
+  'class' => 'className',
+  'ds' => 'default',
+)
+Request URL: /threads
+Stack Trace:
+#0 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Model/Model.php(3499): Model->setSource('us')
+#1 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Model/Datasource/DboSource.php(1063): Model->getDataSource()
+#2 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Model/Model.php(2903): DboSource->read(Object(Thread), Array)
+#3 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Model/Model.php(2875): Model->_readDataSource('all', Array)
+#4 /var/www/html/example-app/Controller/ThreadsController.php(7): Model->find('all')
+#5 [internal function]: ThreadsController->index()
+#6 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(ThreadsController), Array)
+#7 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(ThreadsController), Object(CakeRequest), Object(CakeResponse))
+#9 /var/www/html/example-app/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-04-23 03:46:12 Error: [MissingViewException] View file "/var/www/html/example-app/View/Users/login.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/html/example-app/View/Users/login.ctp',
+)
+Request URL: /users/login
+Stack Trace:
+#0 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/html/example-app/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-04-23 03:46:46 Error: [MissingViewException] View file "/var/www/html/example-app/View/Users/login.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/html/example-app/View/Users/login.ctp',
+)
+Request URL: /users/login
+Stack Trace:
+#0 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/html/example-app/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-04-23 03:47:08 Error: [MissingViewException] View file "/var/www/html/example-app/View/Users/login.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/html/example-app/View/Users/login.ctp',
+)
+Request URL: /users/login
+Stack Trace:
+#0 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/html/example-app/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-04-23 03:49:22 Error: [MissingViewException] View file "/var/www/html/example-app/View/Users/login.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/html/example-app/View/Users/login.ctp',
+)
+Request URL: /users/login
+Stack Trace:
+#0 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/html/example-app/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-04-23 03:49:59 Error: [MissingViewException] View file "/var/www/html/example-app/View/Users/login.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/html/example-app/View/Users/login.ctp',
+)
+Request URL: /users/login
+Stack Trace:
+#0 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/html/example-app/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-04-23 03:50:47 Error: [MissingViewException] View file "/var/www/html/example-app/View/Users/login.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/html/example-app/View/Users/login.ctp',
+)
+Request URL: /users/login
+Stack Trace:
+#0 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/html/example-app/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-04-23 04:39:16 Error: [MissingViewException] View file "/var/www/html/example-app/View/Users/login.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/html/example-app/View/Users/login.ctp',
+)
+Request URL: /users/login
+Stack Trace:
+#0 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/html/example-app/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-04-23 04:41:24 Error: [MissingViewException] View file "/var/www/html/example-app/View/Users/login.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/html/example-app/View/Users/login.ctp',
+)
+Request URL: /users/login
+Stack Trace:
+#0 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/html/example-app/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-04-23 04:43:16 Error: [MissingViewException] View file "/var/www/html/example-app/View/Users/login.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/html/example-app/View/Users/login.ctp',
+)
+Request URL: /users/login
+Stack Trace:
+#0 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/html/example-app/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-04-23 06:40:00 Error: [MissingControllerException] Controller class JhgController could not be found.
+Exception Attributes: array (
+  'class' => 'JhgController',
+  'plugin' => NULL,
+)
+Request URL: /jhg
+Stack Trace:
+#0 /var/www/html/example-app/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-04-23 08:53:46 Error: [MissingActionException] Action ThreadsController::show() could not be found.
+Exception Attributes: array (
+  'controller' => 'ThreadsController',
+  'action' => 'show',
+)
+Request URL: /threads/show
+Stack Trace:
+#0 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(ThreadsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/html/example-app/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-04-23 09:32:36 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FindById' at line 1
+Request URL: /threads/show/1
+Stack Trace:
+#0 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('FindById', Array)
+#2 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Model/Datasource/DboSource.php(665): DboSource->execute('FindById', Array, Array)
+#3 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Model/Datasource/DboSource.php(609): DboSource->fetchAll('FindById', Array, Array)
+#4 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Model/Model.php(800): DboSource->query('FindById', Array, Object(Thread))
+#5 /var/www/html/example-app/Controller/ThreadsController.php(23): Model->__call('FindById', Array)
+#6 /var/www/html/example-app/Controller/ThreadsController.php(23): Thread->FindById('1')
+#7 [internal function]: ThreadsController->show('1')
+#8 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(ThreadsController), Array)
+#9 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#10 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(ThreadsController), Object(CakeRequest), Object(CakeResponse))
+#11 /var/www/html/example-app/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-04-23 09:34:48 Error: [MissingViewException] View file "/var/www/html/example-app/View/Threads/show.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/html/example-app/View/Threads/show.ctp',
+)
+Request URL: /threads/show/1
+Stack Trace:
+#0 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(ThreadsController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/html/example-app/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-04-23 09:37:24 Error: [MissingViewException] View file "/var/www/html/example-app/View/Threads/show.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/html/example-app/View/Threads/show.ctp',
+)
+Request URL: /threads/show/1
+Stack Trace:
+#0 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(ThreadsController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/html/example-app/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-04-23 09:39:30 Error: [MissingViewException] View file "/var/www/html/example-app/View/Threads/create.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/html/example-app/View/Threads/create.ctp',
+)
+Request URL: /threads/create
+Stack Trace:
+#0 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(ThreadsController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/html/example-app/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-04-23 09:42:05 Error: [MissingViewException] View file "/var/www/html/example-app/View/Threads/create.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/html/example-app/View/Threads/create.ctp',
+)
+Request URL: /threads/create
+Stack Trace:
+#0 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(ThreadsController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/html/example-app/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-04-23 09:42:39 Error: Fatal Error (4): syntax error, unexpected ')' in [/var/www/html/example-app/View/Layouts/default.ctp, line 18]
+2014-04-23 09:42:39 Error: [FatalErrorException] syntax error, unexpected ')'
+Request URL: /threads
+Stack Trace:
+#0 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/e...', 18)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/e...', 18, Array)
+#2 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/e...', 18, Array)
+#3 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-23 09:42:51 Error: [MissingViewException] View file "/var/www/html/example-app/View/Threads/create.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/html/example-app/View/Threads/create.ctp',
+)
+Request URL: /threads/create
+Stack Trace:
+#0 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(ThreadsController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/html/example-app/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-04-23 09:45:53 Error: Fatal Error (4): syntax error, unexpected ')' in [/var/www/html/example-app/View/Layouts/default.ctp, line 20]
+2014-04-23 09:45:53 Error: [FatalErrorException] syntax error, unexpected ')'
+Request URL: /threads
+Stack Trace:
+#0 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/e...', 20)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/e...', 20, Array)
+#2 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/e...', 20, Array)
+#3 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-23 09:46:14 Error: [MissingViewException] View file "/var/www/html/example-app/View/Threads/create.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/html/example-app/View/Threads/create.ctp',
+)
+Request URL: /threads/create
+Stack Trace:
+#0 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(ThreadsController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/html/example-app/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-04-23 09:46:47 Error: [MissingViewException] View file "/var/www/html/example-app/View/Threads/create.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/html/example-app/View/Threads/create.ctp',
+)
+Request URL: /threads/create
+Stack Trace:
+#0 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(ThreadsController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/html/example-app/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-04-23 09:47:01 Error: [MissingViewException] View file "/var/www/html/example-app/View/Threads/create.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/html/example-app/View/Threads/create.ctp',
+)
+Request URL: /threads/create
+Stack Trace:
+#0 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(ThreadsController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/html/example-app/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-04-23 09:48:29 Error: Fatal Error (4): syntax error, unexpected T_PUBLIC in [/var/www/html/example-app/Controller/ThreadsController.php, line 23]
+2014-04-23 09:48:29 Error: [FatalErrorException] syntax error, unexpected T_PUBLIC
+Request URL: /threads/create
+Stack Trace:
+#0 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/e...', 23)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/e...', 23, Array)
+#2 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/e...', 23, Array)
+#3 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-23 09:49:39 Error: [MissingViewException] View file "/var/www/html/example-app/View/Threads/create.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/html/example-app/View/Threads/create.ctp',
+)
+Request URL: /threads/create
+Stack Trace:
+#0 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(ThreadsController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/html/example-app/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-04-23 09:54:32 Error: Fatal Error (4): syntax error, unexpected ')' in [/var/www/html/example-app/View/Layouts/default.ctp, line 20]
+2014-04-23 09:54:32 Error: [FatalErrorException] syntax error, unexpected ')'
+Request URL: /threads
+Stack Trace:
+#0 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/e...', 20)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/e...', 20, Array)
+#2 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/e...', 20, Array)
+#3 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-23 09:57:02 Error: [MissingViewException] View file "/var/www/html/example-app/View/Threads/create.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/html/example-app/View/Threads/create.ctp',
+)
+Request URL: /threads/create
+Stack Trace:
+#0 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(ThreadsController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/html/example-app/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-04-23 10:07:24 Error: [MissingViewException] View file "/var/www/html/example-app/View/Threads/create.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/html/example-app/View/Threads/create.ctp',
+)
+Request URL: /threads/create
+Stack Trace:
+#0 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(ThreadsController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/html/example-app/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-04-23 10:08:30 Error: [MissingViewException] View file "/var/www/html/example-app/View/Threads/create.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/html/example-app/View/Threads/create.ctp',
+)
+Request URL: /threads/create
+Stack Trace:
+#0 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(ThreadsController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/html/example-app/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-04-23 10:09:13 Error: [MissingViewException] View file "/var/www/html/example-app/View/Threads/create.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/html/example-app/View/Threads/create.ctp',
+)
+Request URL: /threads/create
+Stack Trace:
+#0 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(ThreadsController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/html/example-app/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-04-23 10:13:21 Error: [MissingViewException] View file "/var/www/html/example-app/View/Threads/create.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/html/example-app/View/Threads/create.ctp',
+)
+Request URL: /threads/create
+Stack Trace:
+#0 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(ThreadsController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/html/example-app/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-04-23 10:25:38 Error: [MissingViewException] View file "/var/www/html/example-app/View/Threads/create.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/html/example-app/View/Threads/create.ctp',
+)
+Request URL: /threads/create
+Stack Trace:
+#0 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(ThreadsController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/html/example-app/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-04-23 10:28:14 Error: [MissingViewException] View file "/var/www/html/example-app/View/Threads/create.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/html/example-app/View/Threads/create.ctp',
+)
+Request URL: /threads/create
+Stack Trace:
+#0 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(ThreadsController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/html/example-app/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-04-23 10:33:48 Error: [MissingViewException] View file "/var/www/html/example-app/View/Threads/create.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/html/example-app/View/Threads/create.ctp',
+)
+Request URL: /threads/create
+Stack Trace:
+#0 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(ThreadsController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/html/example-app/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-04-23 10:33:57 Error: [MissingViewException] View file "/var/www/html/example-app/View/Threads/create.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/html/example-app/View/Threads/create.ctp',
+)
+Request URL: /threads/create
+Stack Trace:
+#0 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(ThreadsController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/html/example-app/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-04-23 10:34:35 Error: [MissingViewException] View file "/var/www/html/example-app/View/Threads/create.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/html/example-app/View/Threads/create.ctp',
+)
+Request URL: /threads/create
+Stack Trace:
+#0 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(ThreadsController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/html/example-app/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-04-23 10:35:44 Error: [MissingViewException] View file "/var/www/html/example-app/View/Threads/create.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/html/example-app/View/Threads/create.ctp',
+)
+Request URL: /threads/create
+Stack Trace:
+#0 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(ThreadsController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/html/example-app/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-04-23 10:46:34 Error: Fatal Error (4): syntax error, unexpected T_STRING in [/var/www/html/example-app/View/Threads/index.ctp, line 16]
+2014-04-23 10:46:34 Error: [FatalErrorException] syntax error, unexpected T_STRING
+Request URL: /threads
+Stack Trace:
+#0 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/e...', 16)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/e...', 16, Array)
+#2 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/e...', 16, Array)
+#3 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-23 10:47:05 Error: Fatal Error (4): syntax error, unexpected ';' in [/var/www/html/example-app/View/Threads/index.ctp, line 14]
+2014-04-23 10:47:05 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /threads
+Stack Trace:
+#0 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/e...', 14)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/e...', 14, Array)
+#2 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/e...', 14, Array)
+#3 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-23 10:47:08 Error: Fatal Error (4): syntax error, unexpected ';' in [/var/www/html/example-app/View/Threads/index.ctp, line 14]
+2014-04-23 10:47:08 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /threads
+Stack Trace:
+#0 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/e...', 14)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/e...', 14, Array)
+#2 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/e...', 14, Array)
+#3 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}

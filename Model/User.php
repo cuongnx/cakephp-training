@@ -11,6 +11,9 @@ class User extends AppModel {
         'allowEmpty' => false,
         'required' => true,
         'message' => "Username is required"
+      ),
+      'unique' => array(
+        'rule' => 'isUnique',
       )
     ),
 
