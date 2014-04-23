@@ -15,8 +15,6 @@
     <?php echo $this->Session->flash(); ?>
     <?php echo $this->fetch('content'); ?>
   </div>
-  <?php debug($this->request); ?>
-  <?php debug($this->Session->read('Auth')); ?>
   <?php debug($var); ?>
   <?php echo $this->element('sql_dump'); ?>
 </body>

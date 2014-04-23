@@ -1455,3 +1455,411 @@ Stack Trace:
 #3 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(902): App::_checkFatalError()
 #4 [internal function]: App::shutdown()
 #5 {main}
+2014-04-23 20:11:48 Error: [MissingActionException] Action UsersController::show() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'show',
+)
+Request URL: /users/show/2
+Stack Trace:
+#0 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/html/example-app/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-04-23 21:53:15 Error: Fatal Error (1): Call to a member function find() on a non-object in [/var/www/html/example-app/Controller/ThreadsController.php, line 30]
+2014-04-23 21:53:15 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /threads/show/1
+Stack Trace:
+#0 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/e...', 30)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/e...', 30, Array)
+#2 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/e...', 30, Array)
+#3 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-23 22:02:51 Error: Fatal Error (1): Call to a member function find() on a non-object in [/var/www/html/example-app/Controller/ThreadsController.php, line 31]
+2014-04-23 22:02:51 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /threads/show/1
+Stack Trace:
+#0 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/e...', 31)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/e...', 31, Array)
+#2 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/e...', 31, Array)
+#3 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-23 23:21:50 Error: [MissingViewException] View file "/var/www/html/example-app/View/Users/login.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/html/example-app/View/Users/login.ctp',
+)
+Request URL: /users/login
+Stack Trace:
+#0 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/html/example-app/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-04-23 23:25:56 Error: Fatal Error (4): syntax error, unexpected '"', expecting ',' or ';' in [/var/www/html/example-app/View/Threads/show.ctp, line 85]
+2014-04-23 23:25:56 Error: [FatalErrorException] syntax error, unexpected '"', expecting ',' or ';'
+Request URL: /threads/show/1
+Stack Trace:
+#0 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/e...', 85)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/e...', 85, Array)
+#2 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/e...', 85, Array)
+#3 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-23 23:45:56 Error: [MissingActionException] Action PostsController::view() could not be found.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => 'view',
+)
+Request URL: /posts/create
+Stack Trace:
+#0 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/html/example-app/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-04-23 23:45:56 Error: [MissingActionException] Action PostsController::view() could not be found.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => 'view',
+)
+Request URL: /posts/create
+Stack Trace:
+#0 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/html/example-app/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-04-23 23:46:30 Error: [MissingViewException] View file "/var/www/html/example-app/View/Posts/create.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/html/example-app/View/Posts/create.ctp',
+)
+Request URL: /posts/create
+Stack Trace:
+#0 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/html/example-app/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-04-23 23:47:59 Error: [MissingViewException] View file "/var/www/html/example-app/View/Posts/create.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/html/example-app/View/Posts/create.ctp',
+)
+Request URL: /posts/create
+Stack Trace:
+#0 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/html/example-app/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-04-23 23:50:02 Error: [MissingViewException] View file "/var/www/html/example-app/View/Posts/create.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/html/example-app/View/Posts/create.ctp',
+)
+Request URL: /posts/create
+Stack Trace:
+#0 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/html/example-app/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-04-23 23:50:10 Error: [MissingViewException] View file "/var/www/html/example-app/View/Elements/post.ctp.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/html/example-app/View/Elements/post.ctp.ctp',
+)
+Request URL: /posts/create
+Stack Trace:
+#0 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/View.php(463): View->_getViewFileName('/Elements/post....')
+#1 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(954): View->render('/Elements/post....', NULL)
+#2 /var/www/html/example-app/Controller/PostsController.php(20): Controller->render('/Elements/post....')
+#3 [internal function]: PostsController->create()
+#4 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#5 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#6 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#7 /var/www/html/example-app/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-04-23 23:50:10 Error: [MissingViewException] View file "/var/www/html/example-app/View/Posts/create.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/html/example-app/View/Posts/create.ctp',
+)
+Request URL: /posts/create
+Stack Trace:
+#0 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/html/example-app/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-04-23 23:52:55 Error: [MissingViewException] View file "/var/www/html/example-app/View/Posts/create.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/html/example-app/View/Posts/create.ctp',
+)
+Request URL: /posts/create
+Stack Trace:
+#0 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/html/example-app/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-04-23 23:54:33 Error: [MissingViewException] View file "/var/www/html/example-app/View/Posts/create.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/html/example-app/View/Posts/create.ctp',
+)
+Request URL: /posts/create
+Stack Trace:
+#0 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/html/example-app/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-04-23 23:55:09 Error: [MissingViewException] View file "/var/www/html/example-app/View/Elements/post.ctp.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/html/example-app/View/Elements/post.ctp.ctp',
+)
+Request URL: /posts/create
+Stack Trace:
+#0 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/View.php(463): View->_getViewFileName('/Elements/post....')
+#1 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(954): View->render('/Elements/post....', 'ajax')
+#2 /var/www/html/example-app/Controller/PostsController.php(20): Controller->render('/Elements/post....', 'ajax')
+#3 [internal function]: PostsController->create()
+#4 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#5 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#6 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#7 /var/www/html/example-app/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-04-23 23:55:09 Error: [MissingViewException] View file "/var/www/html/example-app/View/Posts/create.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/html/example-app/View/Posts/create.ctp',
+)
+Request URL: /posts/create
+Stack Trace:
+#0 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/html/example-app/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-04-23 23:56:22 Error: [MissingViewException] View file "/var/www/html/example-app/View/Elements/post.ctp.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/html/example-app/View/Elements/post.ctp.ctp',
+)
+Request URL: /posts/create
+Stack Trace:
+#0 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/View.php(463): View->_getViewFileName('/Elements/post....')
+#1 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(954): View->render('/Elements/post....', 'ajax')
+#2 /var/www/html/example-app/Controller/PostsController.php(20): Controller->render('/Elements/post....', 'ajax')
+#3 [internal function]: PostsController->create()
+#4 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#5 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#6 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#7 /var/www/html/example-app/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-04-23 23:56:22 Error: [MissingViewException] View file "/var/www/html/example-app/View/Posts/create.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/html/example-app/View/Posts/create.ctp',
+)
+Request URL: /posts/create
+Stack Trace:
+#0 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/html/example-app/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-04-23 23:56:30 Error: [MissingViewException] View file "/var/www/html/example-app/View/Elements/post.ctp.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/html/example-app/View/Elements/post.ctp.ctp',
+)
+Request URL: /posts/create
+Stack Trace:
+#0 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/View.php(463): View->_getViewFileName('/Elements/post....')
+#1 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(954): View->render('/Elements/post....', 'ajax')
+#2 /var/www/html/example-app/Controller/PostsController.php(20): Controller->render('/Elements/post....', 'ajax')
+#3 [internal function]: PostsController->create()
+#4 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#5 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#6 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#7 /var/www/html/example-app/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-04-23 23:57:13 Error: [MissingViewException] View file "/var/www/html/example-app/View/Elements/post.ctp.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/html/example-app/View/Elements/post.ctp.ctp',
+)
+Request URL: /posts/create
+Stack Trace:
+#0 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/View.php(463): View->_getViewFileName('/Elements/post....')
+#1 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(954): View->render('/Elements/post....', 'ajax')
+#2 /var/www/html/example-app/Controller/PostsController.php(20): Controller->render('/Elements/post....', 'ajax')
+#3 [internal function]: PostsController->create()
+#4 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#5 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#6 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#7 /var/www/html/example-app/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-04-23 23:59:15 Error: [MissingViewException] View file "/var/www/html/example-app/View/Elements/post.ctp.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/html/example-app/View/Elements/post.ctp.ctp',
+)
+Request URL: /posts/create
+Stack Trace:
+#0 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/View.php(463): View->_getViewFileName('/Elements/post....')
+#1 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(954): View->render('/Elements/post....', 'ajax')
+#2 /var/www/html/example-app/Controller/PostsController.php(20): Controller->render('/Elements/post....', 'ajax')
+#3 [internal function]: PostsController->create()
+#4 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#5 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#6 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#7 /var/www/html/example-app/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-04-24 00:01:43 Error: [MissingViewException] View file "/var/www/html/example-app/View/Elements/post.ctp.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/html/example-app/View/Elements/post.ctp.ctp',
+)
+Request URL: /posts/create
+Stack Trace:
+#0 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/View.php(463): View->_getViewFileName('/Elements/post....')
+#1 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(954): View->render('/Elements/post....', 'ajax')
+#2 /var/www/html/example-app/Controller/PostsController.php(21): Controller->render('/Elements/post....', 'ajax')
+#3 [internal function]: PostsController->create()
+#4 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#5 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#6 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#7 /var/www/html/example-app/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-04-24 00:03:43 Error: [MissingViewException] View file "/var/www/html/example-app/View/Elements/post.ctp.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/html/example-app/View/Elements/post.ctp.ctp',
+)
+Request URL: /posts/create
+Stack Trace:
+#0 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/View.php(463): View->_getViewFileName('/Elements/post....')
+#1 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(954): View->render('/Elements/post....', 'ajax')
+#2 /var/www/html/example-app/Controller/PostsController.php(20): Controller->render('/Elements/post....', 'ajax')
+#3 [internal function]: PostsController->create()
+#4 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#5 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#6 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#7 /var/www/html/example-app/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-04-24 00:04:57 Error: [MissingViewException] View file "/var/www/html/example-app/View/Elements/post.ctp.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/html/example-app/View/Elements/post.ctp.ctp',
+)
+Request URL: /posts/create
+Stack Trace:
+#0 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/View.php(463): View->_getViewFileName('/Elements/post....')
+#1 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(954): View->render('/Elements/post....', 'ajax')
+#2 /var/www/html/example-app/Controller/PostsController.php(20): Controller->render('/Elements/post....', 'ajax')
+#3 [internal function]: PostsController->create()
+#4 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#5 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#6 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#7 /var/www/html/example-app/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-04-24 00:05:23 Error: [MissingViewException] View file "/var/www/html/example-app/View/Elements/post.ctp.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/html/example-app/View/Elements/post.ctp.ctp',
+)
+Request URL: /posts/create
+Stack Trace:
+#0 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/View.php(463): View->_getViewFileName('/Elements/post....')
+#1 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(954): View->render('/Elements/post....', 'ajax')
+#2 /var/www/html/example-app/Controller/PostsController.php(20): Controller->render('/Elements/post....', 'ajax')
+#3 [internal function]: PostsController->create()
+#4 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#5 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#6 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#7 /var/www/html/example-app/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-04-24 00:05:56 Error: [MissingViewException] View file "/var/www/html/example-app/View/Elements/post.ctp.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/html/example-app/View/Elements/post.ctp.ctp',
+)
+Request URL: /posts/create
+Stack Trace:
+#0 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/View.php(463): View->_getViewFileName('/Elements/post....')
+#1 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(954): View->render('/Elements/post....', 'ajax')
+#2 /var/www/html/example-app/Controller/PostsController.php(20): Controller->render('/Elements/post....', 'ajax')
+#3 [internal function]: PostsController->create()
+#4 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#5 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#6 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#7 /var/www/html/example-app/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-04-24 00:06:42 Error: [MissingViewException] View file "/var/www/html/example-app/View/Elements/post.ctp.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/html/example-app/View/Elements/post.ctp.ctp',
+)
+Request URL: /posts/create
+Stack Trace:
+#0 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/View.php(463): View->_getViewFileName('/Elements/post....')
+#1 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(954): View->render('/Elements/post....', 'ajax')
+#2 /var/www/html/example-app/Controller/PostsController.php(19): Controller->render('/Elements/post....', 'ajax')
+#3 [internal function]: PostsController->create()
+#4 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#5 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#6 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#7 /var/www/html/example-app/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-04-24 00:13:05 Error: [MissingViewException] View file "/var/www/html/example-app/View/Elements/post.ctp.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/html/example-app/View/Elements/post.ctp.ctp',
+)
+Request URL: /posts/create
+Stack Trace:
+#0 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/View.php(463): View->_getViewFileName('/Elements/post....')
+#1 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(954): View->render('/Elements/post....', 'ajax')
+#2 /var/www/html/example-app/Controller/PostsController.php(19): Controller->render('/Elements/post....', 'ajax')
+#3 [internal function]: PostsController->create()
+#4 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#5 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#6 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#7 /var/www/html/example-app/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-04-24 00:29:24 Error: [MissingViewException] View file "/var/www/html/example-app/View/Elements/post.ctp.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/html/example-app/View/Elements/post.ctp.ctp',
+)
+Request URL: /posts/create
+Stack Trace:
+#0 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/View.php(463): View->_getViewFileName('/Elements/post....')
+#1 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(954): View->render('/Elements/post....', 'ajax')
+#2 /var/www/html/example-app/Controller/PostsController.php(19): Controller->render('/Elements/post....', 'ajax')
+#3 [internal function]: PostsController->create()
+#4 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#5 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#6 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#7 /var/www/html/example-app/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-04-24 00:43:44 Error: [MissingViewException] View file "/var/www/html/example-app/View/Elements/post.ctp.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/html/example-app/View/Elements/post.ctp.ctp',
+)
+Request URL: /posts/create
+Stack Trace:
+#0 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/View.php(463): View->_getViewFileName('/Elements/post....')
+#1 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(954): View->render('/Elements/post....', 'ajax')
+#2 /var/www/html/example-app/Controller/PostsController.php(19): Controller->render('/Elements/post....', 'ajax')
+#3 [internal function]: PostsController->create()
+#4 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#5 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#6 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#7 /var/www/html/example-app/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-04-24 00:58:48 Error: [MissingViewException] View file "/var/www/html/example-app/View/Posts/create.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/html/example-app/View/Posts/create.ctp',
+)
+Request URL: /posts/create
+Stack Trace:
+#0 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/html/example-app/Vendor/pear-pear.cakephp.org/CakePHP/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/html/example-app/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}

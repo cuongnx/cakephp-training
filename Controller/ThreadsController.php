@@ -26,6 +26,9 @@ class ThreadsController extends AppController {
   }
 
   public function show($id) {
-    $this->set('thread', $this->Thread->findById($id));
+    $thread = $this->Thread->findById($id);
+    $this->Thread->id = $id;
+    $this->set('thread', $thread);
+    $this->set('var', $thread);
   }
 }
