@@ -1,3 +1,18 @@
+body {
+  background-color: #fffff0;
+}
+
+#overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0,0,0,0.5);
+  z-index: 10;
+}
+
 .top-container {
   padding-top: 100px;
 }
@@ -10,4 +25,19 @@
   float: none;
   display: inline-block;
   vertical-align: middle;
+}
+
+#edit-post-dialog {
+  display: none;
+  position: fixed;
+  top: 50%;
+  background-color: #F0F8FF;
+  z-index: 20;
+}
+
+.info-message {
+  display: none;
+  position: fixed;
+  top: 80px;
+  z-index: 30;
 }

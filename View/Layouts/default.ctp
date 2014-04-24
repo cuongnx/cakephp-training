@@ -10,6 +10,9 @@
   <?php echo $this->Html->script("bootstrap"); ?>
 </head>
 <body>
+  <div id="overlay"></div>
+  <div class="alert alert-danger info-message" id="warning-message"></div>
+  <div class="alert alert-success info-message" id="success-message"></div>
   <?php echo $this->element('header'); ?>
   <div class="container top-container">
     <?php echo $this->Session->flash(); ?>

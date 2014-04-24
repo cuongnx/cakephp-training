@@ -16,6 +16,8 @@ Router::connect('/signin', array('controller' => 'users', 'action' => 'signin'))
 Router::connect('/signup', array('controller' => 'users', 'action' => 'signup'));
 Router::connect('/signout', array('controller' => 'users', 'action' => 'logout'));
 
+Router::parseExtensions("json");
+
 /**
  * Load all plugin routes. See the CakePlugin documentation on
  * how to customize the loading of plugin routes.

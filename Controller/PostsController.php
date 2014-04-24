@@ -18,4 +18,32 @@ class PostsController extends AppController {
     }
     $this->render("/Elements/post", "ajax");
   }
+
+  public function edit($id) {
+    if ($this->request->is("ajax")) {
+      $this->Post->id = $id;
+      $status = 0;
+      if ($this->Post->save($this->request->data)) {
+        $status = 1;
+      } else {
+        $status = 0;
+      }
+      $this->set("data", array($status, $this->Post->findById($id)));
+      $this->layout = null;
+      $this->render("/serialize_view");
+    }
+  }
+
+  public function delete($id) {
+    if ($this->request->is("ajax")) {
+      $status = 0;
+      if ($this->Post->delete($id)) {
+        $status = 1;
+      }
+
+      $this->set("data", array($status));
+      $this->layout = null;
+      $this->render("/serialize_view");
+    }
+  }
 }

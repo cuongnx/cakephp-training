@@ -8,7 +8,7 @@ class Thread extends AppModel {
     )
   );
   public $hasMany = array(
-    'Posts' => array(
+    'Post' => array(
       'className' => 'Post'
     )
   );

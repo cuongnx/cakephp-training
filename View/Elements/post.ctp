@@ -1,5 +1,5 @@
 <?php if ($post): ?>
-    <tr>
+    <tr id="post-<?php echo $post['Post']['id']; ?>" >
       <td width="15%">
         <div class="row">
           <div class="col-lg-12">
@@ -9,14 +9,26 @@
         </div>
       </td>
       <td width="60%">
-        <?php echo $post['Thread']['body']; ?>
+        <?php if ($post["User"]["id"]==$this->Session->read('Auth.User.id')): ?>
+          <div class="col-sm-10" id="post-body-<?php echo $post['Post']['id']; ?>">
+            <?php echo $post['Post']['body']; ?>
+          </div>
+          <div class="col-sm-2">
+            <a href="javascript:void(0)" onclick="editPostClick()" id="edit-post" class="edit-post" data-postid="<?php echo $post['Post']['id']; ?>" >Edit</a>
+          </div>
+        <?php else: ?>
+          <div class="col-sm-12" id="post-body-<?php echo $post['Post']['id']; ?>">
+            <?php echo $post['Post']['body']; ?>
+          </div>
+        <?php endif; ?>
       </td>
       <td width="25%">
         <div class="row">
-          <div class="col-lg-12 pull-right">
-            <?php echo $post['Thread']['modified'] ?>
+          <div class="col-lg-12 pull-right" id="post-modified-<?php echo $post['Post']['id']; ?>" >
+            <?php echo $post['Post']['modified'] ?>
           </div>
         </div>
       </td>
     </tr>
 <?php endif; ?>
+
