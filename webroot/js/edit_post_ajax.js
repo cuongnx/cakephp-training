@@ -2,7 +2,6 @@ $(document).ready(function() {
   $("#overlay").on("click", function(e) {
     dissmissDialog();
   });
-  $(".edit-post").click(editPostClick);
 });
 
 function dissmissDialog() {
@@ -10,8 +9,7 @@ function dissmissDialog() {
   $("#edit-post-dialog").hide();
 }
 
-function editPostClick() {
-  var id = $(this).data("postid");
+function editPostClick(id) {
   var msg = $("#post-body-" + id).text().trim();
   $("#overlay").show();
   $("#edit-post-dialog").show();
@@ -19,6 +17,7 @@ function editPostClick() {
   
   $("#submit-edit-post").on("click", click);
   $("#delete-post").on("click", deleteP);
+
   function click() {
     var data = {
       "Post": {
@@ -48,25 +47,26 @@ function editPostClick() {
   };
 
   function deleteP() {
-    $.ajax({
-      url: "/posts/delete/" + id,
-      cache: false,
-      type: "POST",
-      success: function(dat) {
-        var p = JSON.parse(dat);
-        if (p[0] == 1) {
-          $("#post-" + id).remove();
-          showMessage("success-message", "Deleted");
-          dissmissDialog();
-        } else {
-          showMessage("warning-message", "Failed to edit, please try again");
+    if (confirm("This action cannot be undone! Continue?")) {
+      $.ajax({
+        url: "/posts/delete/" + id,
+        cache: false,
+        type: "POST",
+        success: function(dat) {
+          var p = JSON.parse(dat);
+          if (p[0] == 1) {
+            $("#post-" + id).remove();
+            showMessage("success-message", "Deleted");
+            dissmissDialog();
+          } else {
+            showMessage("warning-message", "Failed to delete, please try again");
+          }
         }
-      }
-    });
+      });
 
-    $("#delete-post").off("click");
+      $("#delete-post").off("click");
+    }
   }
-
   return false;
 }
 

@@ -89,7 +89,7 @@
 
       <div class="form-group">
         <button type="submit" id="submit-edit-post" class="btn btn-default" onclick="return false;" >Submit</button>
-        <a href="javascript:void()" id="delete-post" class="pull-right">Delete post</a>
+        <a href="javascript:void(0);" id="delete-post" class="pull-right">Delete post</a>
       </div>
     </div>
   </form>

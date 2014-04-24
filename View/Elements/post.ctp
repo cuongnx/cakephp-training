@@ -14,7 +14,7 @@
             <?php echo $post['Post']['body']; ?>
           </div>
           <div class="col-sm-2">
-            <a href="javascript:void(0)" onclick="editPostClick()" id="edit-post" class="edit-post" data-postid="<?php echo $post['Post']['id']; ?>" >Edit</a>
+            <a href="javascript:void(0)" onclick="editPostClick(<?php echo $post['Post']['id'] ?>)" id="edit-post" class="edit-post" >Edit</a>
           </div>
         <?php else: ?>
           <div class="col-sm-12" id="post-body-<?php echo $post['Post']['id']; ?>">
