@@ -1,4 +1,19 @@
 $(document).ready(function() {
+  var ws = new WebSocket("ws://192.168.33.11:8081");
+  ws.onopen = function(e) {
+    var msg = {
+      data: "action=1&id=" + $("#threadid").val()
+    };
+    ws.send(JSON.stringify(msg));
+  };
+  ws.onmessage = function(e) {
+    var data = JSON.parse(e.data);
+    $("#post-list").append(data["view"]);
+    $("#edit-post-" + data.postid).remove();
+  };
+  ws.onclose = function(e) {
+  }
+
   $("#submit-post").on("click", function(e) {
     if ($("#body").val() != "") {
       data = $("#post-message").serialize();
@@ -10,6 +25,14 @@ $(document).ready(function() {
         success: function(dat) {
           $("#post-list").append(dat);
           $("#body").val("");
+
+          var postid = $("#post-list").children().last().attr('id').substring(5);
+          var msg = {
+            data: data,
+            view: dat,
+            postid: postid
+          }
+          ws.send(JSON.stringify(msg));
         },
         error: function(e) {
           alert(e);
@@ -17,4 +40,5 @@ $(document).ready(function() {
       });
     }
   });
+
 });
