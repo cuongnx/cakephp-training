@@ -6,11 +6,23 @@ $(document).ready(function() {
     };
     ws.send(JSON.stringify(msg));
   };
+
   ws.onmessage = function(e) {
     var data = JSON.parse(e.data);
-    $("#post-list").append(data["view"]);
-    $("#edit-post-" + data.postid).remove();
+    $.ajax({
+      url: "/posts/show/"+data.postid,
+      cache: false,
+      type: "POST",
+      data: data,
+      success: function(dat) {
+        $("#post-list").append(dat);
+      },
+      error: function(e) {
+        alert(e);
+      }
+    });
   };
+
   ws.onclose = function(e) {
   }
 

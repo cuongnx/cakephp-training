@@ -46,4 +46,12 @@ class PostsController extends AppController {
       $this->render("/serialize_view");
     }
   }
+
+  public function show($id) {
+    if ($this->request->is("ajax")) {
+      $this->set('post', $this->Post->findById($id));
+      $this->render("/Elements/post", "ajax");
+    }
+  }
+
 }
